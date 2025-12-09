@@ -53,15 +53,6 @@ curl -X POST http://localhost:4000/users \
 }
 ```
 
-## Structure
-
-src/
-├── index.ts # Point d'entrée
-├── routes/
-│   └── user.routes.ts # Routes
-└── controllers/
-    └── user.controller.ts # Logique métier
-
 ## Scripts
 
 - `npm run dev` - Lancer en développement avec rechargement automatique
