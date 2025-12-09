@@ -1,5 +1,3 @@
-# CREATION-D-API-AVEC-NODE.JS
-
 # API Node.js
 
 Une API pour gérer les utilisateurs avec Node.js.
@@ -25,7 +23,7 @@ Le serveur démarre sur `http://localhost:4000`
 ### GET `/`
 Vérifier que l'API fonctionne
 ```
-Réponse: API Node.js avec TypeScript fonctionne !
+Réponse: 🚀 API Node.js avec TypeScript fonctionne !
 ```
 
 ### GET `/users`
@@ -54,15 +52,6 @@ curl -X POST http://localhost:4000/users \
   "email": "alice@example.com"
 }
 ```
-
-## Structure
-
-src/
-├── index.ts # Point d'entrée
-├── routes/
-│   └── user.routes.ts # Routes
-└── controllers/
-    └── user.controller.ts # Logique métier
 
 ## Scripts
 
