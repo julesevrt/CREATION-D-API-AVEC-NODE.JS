@@ -34,7 +34,7 @@ curl http://localhost:4000/users
 ```json
 {
   "users": [
-    { "name": "Jules", "email": "jules@example.com" }
+    { "name": "Alice", "email": "alice@example.com" }
   ]
 }
 ```
@@ -44,12 +44,12 @@ Ajoute un nouvel utilisateur
 ```bash
 curl -X POST http://localhost:4000/users \
   -H "Content-Type: application/json" \
-  -d '{"name": "Jules", "email": "jules@example.com"}'
+  -d '{"name": "Alice", "email": "alice@example.com"}'
 ```
 ```json
 {
-  "message": "Utilisateur Jules ajouté avec succès !",
-  "email": "jules@example.com"
+  "message": "Utilisateur Alice ajouté avec succès !",
+  "email": "alice@example.com"
 }
 ```
 
