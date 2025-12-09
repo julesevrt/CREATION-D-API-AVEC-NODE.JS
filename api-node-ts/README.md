@@ -23,7 +23,7 @@ Le serveur démarre sur `http://localhost:4000`
 ### GET `/`
 Vérifier que l'API fonctionne
 ```
-Réponse: API Node.js avec TypeScript fonctionne !
+Réponse: 🚀 API Node.js avec TypeScript fonctionne !
 ```
 
 ### GET `/users`
